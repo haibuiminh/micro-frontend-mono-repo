@@ -1,0 +1,44 @@
+{
+  "folders": [
+    {
+      "path": "."
+    },
+    {
+      "name": "host",
+      "path": "apps/host"
+    },
+    {
+      "name": ".next",
+      "path": "apps/host/.next"
+    },
+    {
+      "name": "api",
+      "path": "packages/api"
+    },
+    {
+      "name": "utils",
+      "path": "packages/utils"
+    },
+    {
+      "name": "ui",
+      "path": "packages/ui"
+    },
+    {
+      "name": "constants",
+      "path": "packages/constants"
+    },
+    {
+      "name": "portal-query",
+      "path": "packages/portal-query"
+    }
+  ],
+  "settings": {
+    "jest.disabledWorkspaceFolders": [
+      "web-portal",
+      ".next",
+      "api",
+      "utils",
+      "constants"
+    ]
+  }
+}
